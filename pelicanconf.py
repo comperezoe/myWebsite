@@ -51,7 +51,7 @@ EXTRA_PATH_METADATA = {
     '../static/images/icons/favicon.png': {'path': 'favicon.png'}
 }
 
-ARTICLE_EXCLUDES = []
+ARTICLE_EXCLUDES = ["articles_excluded"]
 
 config = DEFAULT_CONFIG.copy()
 
