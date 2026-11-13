@@ -1,9 +1,23 @@
 from pelican.settings import DEFAULT_CONFIG
 from pelican.readers import RstReader
 from pelican.readers import HTMLParser
+from pelican.readers import BaseReader
+
+class CustomReader(BaseReader):
+    enabled = True
+    file_extensions = ['htmlx']
+    
+    def read(self, source_path):
+        # Custom parsing logic here
+        with open(source_path) as f:
+            content = f.read()
+        return content, None
+ 
+# In settings
+READERS = {'custom': CustomReader}
 
 AUTHOR = 'Zoé Compère'
-SITENAME = 'Zoé Compère'
+SITENAME = 'Alphonse de Mac-Mahon'
 SITESUBTITLE = "Flutist"
 SITEURL = ""
 
@@ -51,8 +65,11 @@ EXTRA_PATH_METADATA = {
     '../static/images/icons/favicon.png': {'path': 'favicon.png'}
 }
 
+PAGE_ORDER_BY = "page-order"
+
 ARTICLE_EXCLUDES = ["articles_excluded"]
 
 config = DEFAULT_CONFIG.copy()
 
-INTRO_CONTENT = "This is my website. Sorry for the mess"
+customreader = CustomReader(config)
+INTRO_CONTENT,_ = customreader.read("content/articles_excluded/intro.htmlx")

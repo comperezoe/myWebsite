@@ -1,0 +1,8 @@
+This is my website. Sorry for the mess. Discover moree: 
+<input type="button" onClick="document.getElementById('middle').scrollIntoView({behavior: 'smooth'});">here</input>
+a<br>
+a<br>
+a<br>
+a<br>
+a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>
+<div id="middle">okokokokok</div>
