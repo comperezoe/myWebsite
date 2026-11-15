@@ -408,3 +408,14 @@ body {
   padding-top:10px;
   padding-bottom: 10px;
 }
+
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}

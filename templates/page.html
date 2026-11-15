@@ -6,10 +6,10 @@
     <!-- Page Header -->
     {% if page.header_cover %}
         <header class="intro-header" style="background-image: url('{{ SITEURL }}/{{ page.header_cover }}')">
-    {% elif HEADER_COVER %}
+    {% elif PAGE_HEADER_COVER %}
         <header class="intro-header" style="background-image: url('{{ SITEURL }}/{{ HEADER_COVER }}')">
-    {% elif HEADER_COLOR %}
-        <header class="intro-header" style="background-color: {{ HEADER_COLOR }}">
+    {% elif PAGE_HEADER_COLOR %}
+        <header class="intro-header" style="background-color: {{ PAGE_HEADER_COLOR }}">
     {% else %}
         <header class="intro-header" style="background-image: url('{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/home-bg.jpg')">
     {% endif %}

@@ -9,7 +9,7 @@ class CustomReader(BaseReader):
     
     def read(self, source_path):
         # Custom parsing logic here
-        with open(source_path) as f:
+        with open(source_path,encoding="utf-8") as f:
             content = f.read()
         return content, None
  
@@ -17,7 +17,7 @@ class CustomReader(BaseReader):
 READERS = {'custom': CustomReader}
 
 AUTHOR = 'Zoé Compère'
-SITENAME = 'Alphonse de Mac-Mahon'
+SITENAME = 'Zoé Compère'
 SITESUBTITLE = "Flutist"
 SITEURL = ""
 
@@ -55,14 +55,15 @@ DEFAULT_PAGINATION = False
 # RELATIVE_URLS = True
 
 # Themes
-HEADER_COLOR = '#7B5A48'
+HEADER_COVER = "theme/images/gallery_image (16).jpg"
+PAGE_HEADER_COLOR = "#7B5A48"
 
 # Favicon
 FAVICON = 'favicon.png'
 
-STATIC_PATHS = ['../static/images']
+STATIC_PATHS = ['../static/images','../static/js']
 EXTRA_PATH_METADATA = {
-    '../static/images/icons/favicon.png': {'path': 'favicon.png'}
+    '../static/images/icons/favicon.png': {'path': 'favicon.png'},
 }
 
 PAGE_ORDER_BY = "page-order"

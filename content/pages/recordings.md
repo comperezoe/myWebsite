@@ -3,12 +3,17 @@ Date: 2022-06-10 10:50
 Slug: recordings
 page-order: 3
 
+Video timestamps are available <input type="button" onClick="document.getElementById('middle').scrollIntoView({behavior: 'smooth'});" value="here">
 
 ### Class concert Maastricht Conservatorium
 <div id="lvuyUd7FlS4" class="embedded-youtube-video"></div>
 <br />
+<div id="EsJBrjgUn8I" class="embedded-youtube-video"></div>
+
+<div id="middle"><h2>Timestamps</h2></div>
 <p><a href="javascript:void(0);" onclick="setEmbeddedYouTubeVideoTime('lvuyUd7FlS4', 240);">4:00</a> - A content
     section in the second video</p>
+<p><a href="javascript:void(0);" onclick="setEmbeddedYouTubeVideoTime('EsJBrjgUn8I', 0);">46k</a> - Opération régal</p>
 
 
 <script>
