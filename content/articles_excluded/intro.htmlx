@@ -1,39 +1,11 @@
 <h2> <em>Zoé Compère is a recitalist, soloist, an orchestra musician and a chamber musician. Through various repertoires, she weaves a link between music from past to present. </em></h2>
 
-<!-- <div style="position: relative;display: flex;justify-content: center;">
-<div class="gallery-item">
-  <a target="_blank" href="/theme/images/gallery_image (2).jpg">
-    <img src="/theme/images/gallery_image (2).jpg" alt="Cinque Terre" width="600" height="400">
-  </a>
-  <div class="desc">Cinque Terre</div>
-</div>
-
-<div class="gallery-item">
-  <a target="_blank" href="/theme/images/gallery_image (1).jpg">
-    <img src="/theme/images/gallery_image (1).jpg" alt="Forest" width="600" height="400">
-  </a>
-  <div class="desc">Green Forest</div>
-</div>
-
-<div class="gallery-item">
-  <a target="_blank" href="/theme/images/gallery_image (3).jpg">
-    <img src="/theme/images/gallery_image (3).jpg" alt="Forest" width="600" height="400">
-  </a>
-  <div class="desc">Green Forest</div>
-</div>
-
-</div> -->
-
 <div class="scroll-container">
     <a data-fslightbox href="/theme/images/gallery_image (1).jpg">
     <img src="/theme/images/gallery_image (1).jpg" alt="Image">
 </a>
 <a data-fslightbox href="/theme/images/gallery_image (2).jpg">
 <img src="/theme/images/gallery_image (2).jpg" alt="Image">
-</a>
-    <a data-fslightbox href="/theme/images/gallery_image (3).jpg">
-    <img src="/theme/images/gallery_image (3).jpg" alt="Image">
-</a>
 <a data-fslightbox href="/theme/images/gallery_image (4).jpg">
 <img src="/theme/images/gallery_image (4).jpg" alt="Image">
 </a>
@@ -50,37 +22,3 @@
 <img src="/theme/images/gallery_image (8).jpg" alt="Image">
 </a>
 </div>
-
-<!-- 
-<script>
-const slideGallery = document.querySelector('.slides');
-const slides = slideGallery.querySelectorAll('div');
-const scrollbarThumb = document.querySelector('.thumb');
-const slideCount = slides.length;
-const slideHeight = 720;
-const marginTop = 16;
-
-const scrollThumb = () => {
-  const index = Math.floor(slideGallery.scrollTop / slideHeight);
-  scrollbarThumb.style.height = `${((index + 1) / slideCount) * slideHeight}px`;
-};
-
-const scrollToElement = el => {
-  const index = parseInt(el.dataset.id, 10);
-  slideGallery.scrollTo(0, index * slideHeight + marginTop);
-};
-
-document.querySelector('.thumbnails').innerHTML += [...slides]
-  .map(
-    (slide, i) => `<img src="${slide.querySelector('img').src}" data-id="${i}">`
-  )
-  .join('');
-
-document.querySelectorAll('.thumbnails img').forEach(el => {
-  el.addEventListener('click', () => scrollToElement(el));
-});
-
-slideGallery.addEventListener('scroll', e => scrollThumb());
-
-scrollThumb();
-</script> -->

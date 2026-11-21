@@ -4,7 +4,7 @@
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
     {% if HEADER_COVER %}
-        <header class="intro-header" style="background-image: url('{{ SITEURL }}/{{ HEADER_COVER }}')">
+        <header class="intro-header" style="background-image: url('{{ SITEURL }}/{{ HEADER_COVER }}'); min-height: 100vh">
     {% elif HEADER_COLOR %}
         <header class="intro-header" style="background-color: {{ HEADER_COLOR }}">
     {% else %}
@@ -19,6 +19,8 @@
                             <hr class="small">
                             <span class="subheading">{{ SITESUBTITLE }}</span>
                         {% endif %}
+                        <hr class="discrete">
+                        <a class="btn discover-button" onClick="document.getElementById('middle').scrollIntoView({behavior: 'smooth', block:'start'});">DISCOVER MORE</a>
                         {% if SOCIAL and SHOW_SOCIAL_ON_INDEX_PAGE_HEADER %}
                             <ul class="list-inline text-center">
                             {% for name,link in SOCIAL %}
@@ -38,8 +40,8 @@
         </div>
     </header>
 {% endblock header %}
-
 {% block content %}
+<div id="middle"></div>
     {% if INTRO_CONTENT %}
         <div class="row intro-content">
             <div class="col-lg-12 col-lg-offset-0 col-md-10 col-md-offset-1">

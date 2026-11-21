@@ -80,6 +80,13 @@ hr.small {
     border-color: #fff
 }
 
+hr.discrete {
+    max-width: 100px;
+    margin: 15px auto;
+    border-width: 0px;
+    border-color: #fff
+}
+
 .navbar-custom {
     position: absolute;
     top: 0;
@@ -183,7 +190,7 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    margin-bottom: 50px
+    margin-bottom: 50px;
 }
 
 .intro-header .page-heading,
@@ -521,4 +528,39 @@ div.scroll-container {
     .container{
         width: 1900px;
     }
+}
+
+.discover-button {
+    transition-duration: 0.4s;
+    text-transform: uppercase;
+    font-size: 4vw; 
+    font-weight: 400;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    border-width: 3px;
+    padding: 15px 25px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    overflow-wrap: break-word;
+}
+  
+.discover-button:hover {
+background-color: #FFFFFF; /* Green */
+color: #000000;
+}
+
+.end_text {
+    height:150px; 
+    font-weight: 400;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    border-width: 3px;
+    padding: 15px 25px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: #000000;
+    color: #FFFFFF;
+    overflow-wrap: break-word;
 }

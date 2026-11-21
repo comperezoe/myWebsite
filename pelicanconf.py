@@ -37,17 +37,14 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = [
-    ("Pelican", "https://getpelican.com/"),
-    ("Python.org", "https://www.python.org/"),
-    ("Jinja2", "https://palletsprojects.com/p/jinja/"),
-    ("You can modify those links in your config file", "#"),
 ]
 
 # Social widget
-SOCIAL = [
-    ("You can add links in your config file", "#"),
-    ("Another social link", "#"),
-]
+SOCIAL = (
+    ('Facebook', 'https://forums.lanik.us/'),
+    ('Youtube', 'https://forums.lanik.us/'),
+    ('LinkedIn', 'https://forums.lanik.us/'),
+)
 
 DEFAULT_PAGINATION = False
 
