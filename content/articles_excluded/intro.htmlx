@@ -22,3 +22,9 @@
 <img src="/theme/images/gallery_image (8).jpg" alt="Image">
 </a>
 </div>
+
+<br>
+<div>
+<a class="btn homepagelink-button" onClick="window.location.href = './pages/concerts.html';">Upcoming concerts</a>
+<a class="btn homepagelink-button" onClick="window.location.href = './pages/recordings.html';">Recordings</a>
+</div>
