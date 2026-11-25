@@ -53,7 +53,7 @@ DEFAULT_PAGINATION = False
 
 # Themes
 HEADER_COVER = "theme/images/gallery_image (16).jpg"
-PAGE_HEADER_COLOR = "#7B5A48"
+PAGE_HEADER_COLOR = "#793F2D"
 
 # Favicon
 FAVICON = 'favicon.png'
