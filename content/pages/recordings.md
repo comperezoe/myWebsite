@@ -6,14 +6,19 @@ page-order: 3
 Video timestamps are available <input type="button" onClick="document.getElementById('middle').scrollIntoView({behavior: 'smooth'});" value="here">
 
 ### Class concert Maastricht Conservatorium
-<div id="lvuyUd7FlS4" class="embedded-youtube-video"></div>
-<br />
-<div id="EsJBrjgUn8I" class="embedded-youtube-video"></div>
+<div id="bLm6PhChfT0" class="embedded-youtube-video"></div>
 
-<div id="middle"><h2>Timestamps</h2></div>
-<p><a href="javascript:void(0);" onclick="setEmbeddedYouTubeVideoTime('lvuyUd7FlS4', 240);">4:00</a> - A content
-    section in the second video</p>
-<p><a href="javascript:void(0);" onclick="setEmbeddedYouTubeVideoTime('EsJBrjgUn8I', 0);">46k</a> - Opération régal</p>
+### Recording session at *Grand Manège* in Namur
+<div id="Dnd5uRFL_T0" class="embedded-youtube-video"></div>
+
+### Recording session in private studio in Namur
+<div id="eHt73ZqJK2M" class="embedded-youtube-video"></div>
+
+<div id="middle"><h2>Timestamps and programme</h2></div>
+<p><a href="javascript:void(0);" onclick="setEmbeddedYouTubeVideoTime('bLm6PhChfT0', 0);">0:00</a> - <b>Jacques Ibert</b>: Concerto for flute and orchestra; 1st movement: Allegro </p>
+<p><a href="javascript:void(0);" onclick="setEmbeddedYouTubeVideoTime('bLm6PhChfT0', 305);">5:05</a> - <b>Jacques Ibert</b>: Concerto for flute and orchestra; 2nd movement: Andante </p>
+<p><a href="javascript:void(0);" onclick="setEmbeddedYouTubeVideoTime('Dnd5uRFL_T0', 0);">0:00</a> - <b>Franz Schubert</b>: Variations for flute and piano</p>
+<p><a href="javascript:void(0);" onclick="setEmbeddedYouTubeVideoTime('eHt73ZqJK2M', 0);">0:00</a> - <b>Toru Takemitsu</b>: Itinérant</p>
 
 
 <script>

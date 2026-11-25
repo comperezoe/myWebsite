@@ -28,7 +28,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Garet', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Garet', 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
 
 p {
@@ -570,12 +570,12 @@ color: #000000;
     text-transform: uppercase;
     font-size: 2vw; 
     font-weight: 400;
-    min-width: 48%;
+    min-width: 49.5%;
     letter-spacing: 1px;
     border-radius: 3px;
     border-width: 3px;
     padding: 1% 1%;
-    margin:5px;
+    /* margin:0.5px; */
     background-color: transparent;
     border-style: solid;
     border-color: #7B5A48;
@@ -586,4 +586,5 @@ color: #000000;
 .homepagelink-button:hover {
 background-color: #000000; /* Green */
 color: #FFFFFF;
+border-color: #000000;
 }
